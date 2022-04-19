@@ -123,7 +123,7 @@ struct ContentView: View {
     }
 
     func restartGame() {
-        // TODO: restart game
+        shuffleMoves()
         rounds = 0
         points = 0
         gameEnds = false
